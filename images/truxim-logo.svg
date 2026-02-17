@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60" width="400" height="60">
+  <g transform="translate(0, 5)">
+    <rect x="2" y="2" width="14" height="14" rx="0.5" fill="none" stroke="#9e7c63" stroke-width="2.5"/>
+    <rect x="20" y="2" width="14" height="14" rx="0.5" fill="none" stroke="#9e7c63" stroke-width="2.5"/>
+    <rect x="38" y="2" width="14" height="14" rx="0.5" fill="none" stroke="#9e7c63" stroke-width="2.5"/>
+    <rect x="20" y="22" width="14" height="14" rx="0.5" fill="none" stroke="#9e7c63" stroke-width="2.5"/>
+  </g>
+  <text x="70" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="400" fill="#9e7c63" letter-spacing="1">Truxim</text>
+</svg>
