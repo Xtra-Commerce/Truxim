@@ -1834,3 +1834,10 @@ ul, ol {
      color: #7a4c4c !important;
    }
    
+   .thank-you-icon {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+   
