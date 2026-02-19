@@ -237,7 +237,7 @@ ul, ol {
 
 /* --- Hero --- */
 .hero {
-  padding: 6rem 0 5rem;
+  padding: 4rem 0 5rem;
   text-align: center;
 }
 
@@ -1426,7 +1426,7 @@ ul, ol {
 
 /* Resources page */
 .hero-section {
-  padding: 6rem 0 5rem;
+  padding: 4rem 0 5rem;
   text-align: center;
 }
 
@@ -1780,3 +1780,57 @@ ul, ol {
     text-decoration: underline;
   }
 }
+
+/* ============================================
+   Brevo Form Integration (Scoped Override)
+   ============================================ */
+
+   #sib-container,
+   #sib-container * {
+     font-family: var(--font-heading) !important;
+   }
+   
+   #sib-container {
+     background: var(--white) !important;
+     border: 1px solid var(--accent1) !important;
+     border-radius: var(--radius) !important;
+     box-shadow: var(--shadow-sm);
+     max-width: 520px;
+     margin: 0 auto;
+     padding: 2rem 2rem;
+   }
+   
+   /* Input Fields */
+   #sib-container .input {
+     border: 1px solid var(--accent2) !important;
+     background: var(--white) !important;
+     color: var(--text) !important;
+   }
+   
+   /* Submit Button */
+   #sib-container .sib-form-block__button {
+     background: var(--fg) !important;
+     color: var(--white) !important;
+     border-radius: var(--radius) !important;
+     font-family: var(--font-heading) !important;
+     transition: background var(--transition);
+   }
+   
+   #sib-container .sib-form-block__button:hover {
+     background: var(--accent3) !important;
+   }
+   
+   /* Success Message */
+   #success-message {
+     background: rgba(204, 172, 146, 0.12) !important;
+     border: 1px solid var(--accent1) !important;
+     color: var(--text) !important;
+   }
+   
+   /* Error Message */
+   #error-message {
+     background: rgba(166, 96, 96, 0.08) !important;
+     border: 1px solid #a66060 !important;
+     color: #7a4c4c !important;
+   }
+   
